@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.explain:
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                         builder.setTitle("使用说明");
-                        builder.setMessage("更新后的闹钟APP,供学习交流使用,暂时一次只能运行一个闹钟,下一个版本继续改");
+                        builder.setMessage("更新后的闹钟APP,供学习交流使用,下一个版本继续改");
                         builder.setCancelable(true);
                         builder.setPositiveButton("我知道了", new DialogInterface.OnClickListener() {
                             @Override

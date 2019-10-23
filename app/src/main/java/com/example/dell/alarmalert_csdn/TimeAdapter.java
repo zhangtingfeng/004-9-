@@ -34,7 +34,6 @@ public class TimeAdapter extends RecyclerView.Adapter<TimeAdapter.ViewHolder> {
     public static int pos;
 
 
-
     public TimeAdapter(List<Clock> list, Context context) {
         this.list = list;
         this.context = context;

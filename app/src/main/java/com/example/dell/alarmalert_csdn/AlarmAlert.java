@@ -16,7 +16,7 @@ public class AlarmAlert extends Activity {
     {
         super.onCreate(savedInstanceState);
         int position = getIntent().getIntExtra("position",-1);
-        mediaPlayer = MediaPlayer.create(this,R.raw.clockmusic2);
+        mediaPlayer = MediaPlayer.create(this,R.raw.fast16track5);
         mediaPlayer.start();
         new AlertDialog.Builder(AlarmAlert.this)
                 .setIcon(R.drawable.clock)
